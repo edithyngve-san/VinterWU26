@@ -1,34 +1,53 @@
-#lådan{
+body{
+    background-color: aqua;
+}
+
+#lodan{
     display: grid;
-    height: 220 vh;
+    height: 220vh;
+
+    row-gap: 25px;
 
     grid-template-areas: 
     'hd hd hd'
-    'as sec as'
-    'div div div';
+    'as sec as1'
+    'as div as1';
 
     grid-template-columns: 10fr 80% 10fr  ;
-    grid-template-rows: 20vh 40vh 160fr ;
+    grid-template-rows: 30vh 40vh 160fr ;
 }
 
-header{ grid-area: hd;
+header{ 
+    grid-area: hd;
     background-color: antiquewhite;
+    border-radius: 10px;
 
 }
 
-aside{
+#venster{
     grid-area: as;
     background-color: aqua;
+    
 }
+
+#hoger{
+    grid-area: as1;
+    background-color: aqua;
+
+}
+
+
 
 section{
     grid-area: sec;
     background-color: blue;
+    border-radius:  20px;
 }
 
 #meny{
     grid-area: div;
     background-color: brown;
+    border-radius:  20px;
 }
 
 
