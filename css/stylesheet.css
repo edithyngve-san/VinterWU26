@@ -1,6 +1,8 @@
 body{
-    background-color: aqua;
+    background-color: white;
 }
+
+ 
 
 #lodan{
     display: grid;
@@ -21,18 +23,19 @@ header{
     grid-area: hd;
     background-color: antiquewhite;
     border-radius: 10px;
+   
 
 }
 
 #venster{
     grid-area: as;
-    background-color: aqua;
+    background-color: white;
     
 }
 
 #hoger{
     grid-area: as1;
-    background-color: aqua;
+    background-color: white;
 
 }
 
@@ -42,12 +45,167 @@ section{
     grid-area: sec;
     background-color: blue;
     border-radius:  20px;
+    
+
 }
 
 #meny{
     grid-area: div;
-    background-color: brown;
+    background-color: rgba(255, 107, 129, 1);
     border-radius:  20px;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0px;
+    padding: 20px ;  
+}
+
+a{
+    background-color: rgb(234, 239, 176);
+    color: black;
+    height: 7%;
+    width: 32%;
+    border-radius:  20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: xx-large;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+
+a:hover{
+    cursor: pointer;
+    color: blue;
+    
+}
+    
+    
+
+
+#smaker{
+    background-color: rgb(234, 239, 176);
+    height: 9%;
+    width: 32%;
+    border-radius:  20px 20px 0px 0px;
+    margin-bottom: 0px;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+   
+
+}
+
+h1{
+    background-color: rgb(234, 239, 176);
+    width: 100%;
+    height: 90%;
+    border-radius:  20px 0px 20px 20px;
+    margin-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: evenly spaced;
+    row-gap: 20px;
+ 
+   
+}
+
+#radett{
+    background-color: rgb(234, 239, 176);
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+   
+
+}
+
+#sett, #stva, #stre{
+    border-style: solid;
+    border-width: thick;
+    border-color: chocolate;
+    background-color: cornsilk;
+    height: 100%;
+    width: 28%;
+    border-radius:  20px;
+  
+
+
 }
 
 
+
+#radtva{
+    background-color: rgb(234, 239, 176);
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+
+#sfyra, #sfem, #ssex{
+    border-style: solid;
+    border-width: thick;
+    border-color: rgb(219, 228, 121);
+    background-color: cornsilk;
+    height: 100%;
+    width: 28%;
+    border-radius:  20px;
+
+}
+
+#radtre{
+    background-color: rgb(253, 248, 198);
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+#ssju, #satta, #snio{
+    border-style: solid;
+    border-width: thick;
+    border-color: rgb(234, 239, 176);
+    background-color: cornsilk;
+    height: 100%;
+    width: 28%;
+    border-radius: 20px;
+
+
+}
+
+#sett:hover, 
+#stva:hover, 
+#stre:hover, 
+#sfyra:hover, 
+#sfem:hover, 
+#ssex:hover, 
+#ssju:hover, 
+#satta:hover, 
+#snio:hover{
+    cursor: pointer;
+    transform: scale(1.10, 1.30);
+    background-color: cornsilk;
+    
+
+
+}
